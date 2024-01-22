@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
 
 /* common styles */
 :root {
@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "Orbitron", sans-serif;
+  font-family: Tomorrow, sans-serif;
 }
 
 .page-wrap {
@@ -65,21 +65,27 @@ body {
   width: 350px;
   height: 100px;
   margin: 5px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 25px;
   padding: 5px;
   background-color: #361532;
-  border-top: var(--violet) 3px solid;
-  border-bottom: var(--violet) 3px solid;
+  border: var(--violet) 3px solid;
   box-shadow: 0px 0px 20px 0px var(--violet);
+  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
 }
 
 .btn {
-  width: 50px;
-  height: 50px;
-  font-size: 25px;
-  margin: 2px;
+  width: 65px;
+  height: 65px;
+  border: 2px solid var(--blue);
+  outline: none;
+  background-color: #030b1a6f;
   cursor: pointer;
-  background-color: var(--blue);
-  color: white;
+  font-family: Tomorrow, sans-serif;
+  font-size: 25px;
+  margin: 3px;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--yellow);
+  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
 }
