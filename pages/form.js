@@ -3,13 +3,13 @@ function insert(num) {
 }
 
 function equal() {
-  var exp = document.calc.input_form.value;
+  let exp = document.calc.input_form.value;
   if (exp) {
     document.calc.input_form.value = eval(exp);
   }
 }
 
 function backspace() {
-  var exp = document.calc.input_form.value;
+  let exp = document.calc.input_form.value;
   document.calc.input_form.value = exp.substring(0, exp.length - 1);
 }
